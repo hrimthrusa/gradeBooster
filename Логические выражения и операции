@@ -14,7 +14,7 @@
 
 Пример использования XOR с логическими значениями:
 
-<code>public class XORExample {
+`public class XORExample {
     public static void main(String[] args) {
         boolean a = true;
         boolean b = false;
@@ -26,11 +26,11 @@
         boolean result2 = a ^ true; // true ^ true -> false
         System.out.println("Result of true ^ true: " + result2); // Вывод: false
     }
-}</code>
+}`
 
 Поиск уникального элемента: XOR используется для поиска уникального элемента в массиве, где каждый элемент повторяется дважды, кроме одного.
 
-```public class FindUnique {
+`public class FindUnique {
     public static void main(String[] args) {
         int[] arr = {2, 3, 5, 4, 5, 3, 4};
         int unique = 0;
@@ -41,4 +41,4 @@
 
         System.out.println("The unique element is: " + unique); // Вывод: 2
     }
-}```
+}`

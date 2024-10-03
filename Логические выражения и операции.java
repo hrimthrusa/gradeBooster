@@ -13,7 +13,7 @@
 Если оба операнда равны (оба true или оба false), результат будет false.
 
 Пример использования XOR с логическими значениями:
-```
+
 public class XORExample {
     public static void main(String[] args) {
         boolean a = true;
@@ -27,9 +27,9 @@ public class XORExample {
         System.out.println("Result of true ^ true: " + result2); // Вывод: false
     }
 }
-```
+
 Поиск уникального элемента: XOR используется для поиска уникального элемента в массиве, где каждый элемент повторяется дважды, кроме одного.
-```
+
 public class FindUnique {
     public static void main(String[] args) {
         int[] arr = {2, 3, 5, 4, 5, 3, 4};
@@ -42,4 +42,4 @@ public class FindUnique {
         System.out.println("The unique element is: " + unique); // Вывод: 2
     }
 }
-```
+
